@@ -11,7 +11,7 @@
     "react-with-styles-interface-aphrodite": "^6.0.1"
   },
   "scripts": {
-    "storybook": "start-storybook -p 9001 -c .storybook",
+    "storybook": "start-storybook -p 9001 -c .storybook -s public",
     "start": "react-scripts start"
   },
   "eslintConfig": {
