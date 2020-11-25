@@ -8,7 +8,10 @@
     "react-dom": "^17.0.1",
     "react-scripts": "2.1.7",
     "react-with-styles": "^4.1.0",
-    "react-with-styles-interface-aphrodite": "^6.0.1"
+    "react-with-styles-interface-aphrodite": "^6.0.1",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "axios": "0.18.1"
   },
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook -s public",
@@ -27,6 +30,7 @@
     "@storybook/addon-actions": "5.2.6",
     "@storybook/addons": "5.2.6",
     "@storybook/react": "5.2.6",
-    "storybook-addon-jsx": "7.1.13"
+    "storybook-addon-jsx": "7.1.13",
+    "redux-devtools-extension": "^2.13.8"
   }
 }

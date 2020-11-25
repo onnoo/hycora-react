@@ -11,7 +11,7 @@ import Spacing from './Spacing';
 
 class SeatCard extends PureComponent {
   render() {
-    const { title, totalSeat, currentSeat } = this.props;
+    const { title, totalSeat, currentSeat, accSeat } = this.props;
     const leftSeat = totalSeat - currentSeat;
     const progress = totalSeat > 0 ? (currentSeat / totalSeat) * 100 : '0';
     return (
@@ -26,8 +26,8 @@ class SeatCard extends PureComponent {
           </InlineList>
         </Spacing>
         <InlineList>
-          <CardButton label="입실" primary />
-          <CardButton label="퇴실" secondary />
+          <CardButton label="입실" primary onClick={() => accSeat(1)} />
+          <CardButton label="퇴실" secondary onClick={() => accSeat(-1)} />
         </InlineList>
       </Card>
     );
