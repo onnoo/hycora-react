@@ -42,7 +42,7 @@ class SeatList extends PureComponent {
       <React.Fragment>
         <GridLayout>
           {seats.map((seat) => (
-            <SeatCard {...seat} />
+            <SeatCard key={seat['id']} {...seat} />
           ))}
         </GridLayout>
       </React.Fragment>

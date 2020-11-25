@@ -14,7 +14,7 @@ class ProgressBar extends PureComponent {
 }
 
 ProgressBar.propTypes = {
-  progress: PropTypes.number,
+  progress: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 };
 
 export default withStyles(({ color }) => ({
