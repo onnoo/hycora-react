@@ -27,6 +27,7 @@
     "@storybook/addon-actions": "5.2.6",
     "@storybook/addons": "5.2.6",
     "@storybook/react": "5.2.6",
-    "storybook-addon-jsx": "7.1.13"
+    "storybook-addon-jsx": "7.1.13",
+    "redux-devtools-extension": "^2.13.8"
   }
 }
