@@ -32,10 +32,10 @@ export default withStyles(({ color, fontFamily }) => ({
     color: color.default,
     border: 'None',
     borderRadius: '6px',
-    padding: '20px',
+    padding: '10px',
     margin: '0 4px',
     width: '100%',
-    fontSize: '24pt',
+    fontSize: '16pt',
     cursor: 'pointer',
     ':focus': {
       outline: 'None',

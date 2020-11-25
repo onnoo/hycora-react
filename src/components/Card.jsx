@@ -15,7 +15,6 @@ Card.propTypes = {
 
 export default withStyles(({ color }) => ({
   wrapper: {
-    margin: '2vh 2vw',
     backgroundColor: color.white,
     border: '1px solid rgba(0, 0, 0, 0.20)',
     borderRadius: '8px',

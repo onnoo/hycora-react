@@ -16,7 +16,7 @@ CardTitle.propTypes = {
 export default withStyles(({ color }) => ({
   wrapper: {
     color: color.default,
-    fontSize: '30pt',
+    fontSize: '25pt',
     textAlign: 'center',
     padding: '12px 0 24px 0',
   },

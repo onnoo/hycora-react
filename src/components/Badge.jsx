@@ -28,9 +28,9 @@ Badge.propTypes = {
 export default withStyles(({ color }) => ({
   default: {
     color: color.default,
-    padding: '2px 20px',
-    borderRadius: '20px',
-    fontSize: '22pt',
+    padding: '0px 16px',
+    borderRadius: '16px',
+    fontSize: '12pt',
   },
   primary: {
     backgroundColor: color.primaryLight,

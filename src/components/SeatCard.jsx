@@ -18,7 +18,7 @@ class SeatCard extends PureComponent {
       <Card>
         <CardTitle>{title}</CardTitle>
         <ProgressBar progress={progress} />
-        <Spacing p="20px 0 20px 0">
+        <Spacing p="12px 4px 12px 4px">
           <InlineList>
             <Badge value={currentSeat} secondary />
             <Badge value={totalSeat} />

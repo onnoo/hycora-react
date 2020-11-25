@@ -18,5 +18,6 @@ export default withStyles(() => ({
     padding: '30px',
     display: 'grid',
     gridTemplateColumns: '1fr 1fr 1fr',
+    gridGap: '30px',
   },
 }))(GridLayout);
