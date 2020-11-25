@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import Nav from './components/Nav';
 import SeatList from './components/SeatList';
+import Footer from './components/Footer';
+import Background from './components/Background';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <Background>
         <Nav />
         <SeatList />
-      </div>
+        <Footer>HANYANG COMPUTER RESEARCH ASSOCIATION</Footer>
+      </Background>
     );
   }
 }

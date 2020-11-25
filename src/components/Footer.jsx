@@ -9,12 +9,19 @@ class Footer extends PureComponent {
   }
 }
 
-Footer.propTypes = {};
+Footer.propTypes = {
+  children: PropTypes.node,
+};
 
 export default withStyles(({ color, fontFamily }) => ({
   wrapper: {
     fontFamily: fontFamily.firaSans,
     color: color.primary,
-    fontSize: '40pt',
+    fontSize: '20pt',
+    position: 'fixed',
+    bottom: '0px',
+    width: '100%',
+    textAlign: 'center',
+    padding: '16px 0px',
   },
 }))(Footer);
