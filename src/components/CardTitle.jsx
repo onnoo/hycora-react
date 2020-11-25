@@ -9,7 +9,9 @@ class CardTitle extends PureComponent {
   }
 }
 
-CardTitle.propTypes = {};
+CardTitle.propTypes = {
+  children: PropTypes.node,
+};
 
 export default withStyles(({ color }) => ({
   wrapper: {

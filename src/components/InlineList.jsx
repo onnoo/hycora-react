@@ -11,8 +11,8 @@ class InlineList extends PureComponent {
           <div
             {...css(
               styles.item,
-              index == 0 && styles.left,
-              index == children.length - 1 && styles.right,
+              index === 0 && styles.left,
+              index === children.length - 1 && styles.right,
             )}
           >
             {child}
@@ -27,7 +27,7 @@ InlineList.propTypes = {
   children: PropTypes.node,
 };
 
-export default withStyles(({}) => ({
+export default withStyles(() => ({
   wrapper: {
     display: 'flex',
     flexDirection: 'row',

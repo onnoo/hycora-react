@@ -4,10 +4,10 @@ import { withStyles, css } from 'react-with-styles';
 
 class Spacing extends PureComponent {
   render() {
-    const { p, children } = this.props;
+    const { p, children, styles } = this.props;
     return (
       <div
-        {...css({
+        {...css(styles.default, {
           padding: p,
         })}
       >
@@ -21,4 +21,8 @@ Spacing.propTypes = {
   p: PropTypes.string,
 };
 
-export default withStyles(({}) => ({}))(Spacing);
+export default withStyles(() => ({
+  default: {
+    margin: 0,
+  },
+}))(Spacing);
